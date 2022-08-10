@@ -1,6 +1,7 @@
 <template>
   <q-page style="background-color: " class="flex bannerWpp flex-center">
     <q-toolbar style="margin-top: -7em;" class="q-mt-none q-pt-none">
+    <!-- PRE BASED -->
       <q-btn-dropdown rounded color="blue-5" label="Lock Period">
         <q-list>
           <q-item clickable v-close-popup @click="onItemClick">
@@ -42,6 +43,7 @@
     <div class="container q-gutter-x-md row flex flex-center">
       <div style="width: 45vw; height: 50vh; margin-left:;" class="containerNft q-gutter-sm col q-pa-md">
         <div class="flex q-gutter-sm grid flex-grid">
+          <!-- CHANGE TO DIV w CDL -->
           <q-img class="clickable" style="border-radius: 20px; width: 10vw; height: 20vh;"
             src="https://arweave.net/R2rUcHLGmcKQlwioZfTqwAiLgmG91uNH6ftPCcWaTfU?ext=png">
           </q-img>
